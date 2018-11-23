@@ -1,0 +1,17 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts":{
+    "start": "./node_modules/.bin/browser-sync start --server --no-notify --files='index.html',*.css, *.js"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.26.3"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
